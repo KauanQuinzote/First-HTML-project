@@ -1,0 +1,181 @@
+header {
+    background-color: #255957;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    color: white;
+    border-bottom: 2px solid #F7C548;
+    display: inline;
+}
+
+body {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+#menu-header {
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    bottom: 0;
+    font-size: larger;
+}
+
+main {
+    margin-top: 10px;
+    position: relative;
+    z-index: 0;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+
+html {
+    height: 1000px;
+    display: center;
+}
+
+hr {
+    border: none;
+    /* Remover a borda padrão */
+    height: 2px;
+    /* Definir a altura da linha */
+    position: relative;
+    background-color: #F7C548;
+    opacity: 0.4;
+    margin: 15px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+h1 {
+    position: absolute;
+    display: inline-block;
+    padding: 0%;
+    top: 0%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -60%);
+}
+
+h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #bd9329;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+.new:hover {
+    background-color: rgba(120, 177, 174, 0.1);
+    border-radius: 7px;
+}
+
+.new {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#seja_assinante {
+    padding: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: larger;
+}
+
+.imagens {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 3px;
+}
+
+li {
+    padding: 2px;
+}
+
+li:hover {
+    border-left: 2px solid #F7C548;
+    border-right: 2px solid #F7C548;
+}
+
+#seja_assinante:hover {
+    border-left: 2px solid #F7C548;
+    border-right: 2px solid #F7C548;
+}
+
+#menu {
+    position: absolute;
+    left: 10px;
+    width: 35px;
+    height: 35px;
+    filter: invert(100%);
+}
+
+#menu:hover {
+    left: 6px;
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    height: 200px;
+    background-color: #255957;
+}
+
+#propaganda {
+    margin-top: 210px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    position: relative;
+    color: white;
+}
+
+#barra-search {
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    text-indent: 10px;
+}
+
+#lupa {
+    border-radius: 8px;
+    border-width: 0px;
+    border-color: aqua;
+    width: 40px;
+    height: 22px;
+
+}

@@ -41,6 +41,7 @@ body {
     bottom: 0;
     font-size: larger;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 main {
@@ -105,7 +106,7 @@ h2 {
 }
 
 .new:hover {
-    background-color: rgba(120, 177, 174, 0.1);
+    background-color: rgba(194, 250, 248, 0.425);
     border-radius: 7px;
 }
 
@@ -125,6 +126,7 @@ h2 {
     font-size: larger;
     margin-bottom: -11px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .imagens {
@@ -170,6 +172,8 @@ li:hover {
 footer {
     height: 200px;
     background-color: #003D93;
+    background-image: linear-gradient(to bottom, var(--the-blue), var(--the-dark));
+    position: relative;
 }
 
 #propaganda {
@@ -195,7 +199,7 @@ input {
     border-width: 0px;
     text-indent: 10px;
     float: left;
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.445) ;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.445);
 }
 
 #lupa {
@@ -207,7 +211,7 @@ input {
     overflow: hidden;
     padding: 0;
     margin-left: 5px;
-    
+
 }
 
 #lupa-ico {
@@ -221,4 +225,37 @@ input {
     right: 10px;
     top: 10px;
     opacity: calc(10%);
+}
+
+#logos-do-footer {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.logos-footer {
+    margin: -2px;
+    padding: 0px;
+    height: 40px;
+    width: auto;
+
+}
+
+#instagram-logo {
+    height: 43px;
+}
+
+#instagram-logo:hover {
+    height: 50px;
+}
+
+.logos-footer:hover {
+    height: 50px;
+    width: auto;
+    transition: width 0.5s ease, height 0.5s ease;
 }
